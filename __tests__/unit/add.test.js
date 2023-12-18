@@ -1,5 +1,5 @@
-import { add } from '../unit/add'
+const { add } = require('../../utils/add')
 
 test('add 1 + 2 to equal 3', () => {
   expect(add(1, 2)).toBe(3)
-});
+})
